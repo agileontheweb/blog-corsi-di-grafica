@@ -1,0 +1,33 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .navbar{
+    .logo{
+      background: $sprite 0px -130px;
+      width: 230px;
+      height: 113px;
+      background-repeat: no-repeat;
+      background-size: 500%;
+    }
+  }
+  .footer {
+    .logo{
+       background: $sprite 0px -80px;
+      width: 180px;
+      height: 80px;
+      background-repeat: no-repeat;
+      background-size: 500%;
+    }
+  }
+  .giveme5{
+    .hand{ 
+      background: url(./img/sprite.svg) -293px -315px;
+      z-index: 9999;
+      width: 118px;
+      height: 113px;
+      background-repeat: no-repeat;
+      background-size: 748%;
+    }
+  }
+  .panel .back {
+    position: relative;
+  }
+}

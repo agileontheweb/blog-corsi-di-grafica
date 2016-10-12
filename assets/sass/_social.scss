@@ -1,0 +1,108 @@
+.social-likes__counter{
+  margin-top: 35px;
+}
+ .share-social{
+   i{
+    display: inline-block;
+    border-radius: 50%;
+    color:white;
+    width: 35px;
+    height: 35px;
+    font-weight: 700;
+    margin-left: 20px;
+    position: relative;
+    
+    &:before{ 
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 11px;
+      bottom: 0px;
+      margin: 0px auto;
+    }
+
+    &.fa-facebook{background:#3C5B9B;}
+    &.fa-google{background:#F53E28;}
+    &.fa-linkedin{background:#0073B2;}
+    &.fa-twitter{background:#2DAAE1;}
+  }
+}
+ 
+.social{
+  a{
+    @extend .linkanimate-hidden;
+  }
+  span{
+    font-family: $font-amatic-bold;
+    font-size: 1.6em;
+    display: block;
+  }
+
+}
+#secondary .widget .social-icons a {
+  color: #fff;
+}
+.social-icons {
+  position: relative;
+  text-align: center;
+}
+#secondary .widget .social-icons {
+  text-align: left;
+}
+.social-icons a {
+  font-size: 18px;
+  line-height: 40px;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  background-color: #DADADA;
+  -webkit-transition: background-color  0.5s;
+     -moz-transition: background-color  0.5s;
+       -o-transition: background-color  0.5s;
+          transition: background-color  0.5s;
+}
+
+#footer-area .social-icons a {
+  margin-right: 7px;
+  background-color: #363636;
+  color: #fff;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #4265b9 !important;
+}
+.social-icons a.twitter:hover {
+  background-color: #55ACEE !important;
+}
+.social-icons a.googleplus:hover {
+  background-color: #d62408 !important;
+}
+.social-icons a.linkedin:hover {
+  background-color: #005987 !important;
+}
+.social-icons a.youtube:hover {
+  background-color: #df3333 !important;
+}
+ 
+.social-icons a.github:hover {
+  background-color: #4183C4 !important;
+}
+ 
+.fa-googleplus:before {
+  content: "\f0d5";
+}
+.fa-vimeo:before {
+  content: "\f194";
+}
+
+@media (max-width: 992px) {
+  .site-branding {
+    text-align: center;
+  }
+}
+ 

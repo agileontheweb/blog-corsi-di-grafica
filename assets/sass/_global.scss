@@ -1,0 +1,186 @@
+/*------------- 1. Global Variables ------------*/
+
+$font-base:'Titillium Web', sans-serif; 
+$font-amatic: 'AmaticSCRegular', cursive; 
+$font-amatic-bold: 'AmaticBold', cursive; 
+
+$logo:url(assets/img/logo.svg); 
+$hand:url(assets/img/hand.svg); 
+$sprite:url(assets/img/sprite.svg);
+$primary-color:#43B5A0; 
+$secondary-color:grey;
+$color-text: #6B6B6B;//Grey
+
+$link:$primary-color;
+$link-hover:#704729;
+
+$nav-background:#F2F2F2;
+$grey-medium:#E6E6E6;
+$grey-dark:#CCCCCC; 
+$texture1:url(assets/img/cross_scratches.png);
+
+$Illustrator-color:#E7B14D;
+$Illustrator-facile-color:#fc535e;
+$Photoshop-color:#0078b9 ;
+$Indesign-color:#E6B2CC;
+$Wordpress-color:#D0E3E8 ;
+$Unix-color:#333 ;
+
+
+/*------------- 2. Class Color ------------*/
+
+
+.illustrator-background{
+  background: $Illustrator-color;
+  color:#fff;
+  padding:1em 0em 1em; 
+  h3{
+    .flaticon-graphic:before{
+      font-size: 2em;
+      color:#544943;
+    }
+    a{
+      color:#fff;
+      border: none;
+      display: block;
+      margin-top:1em;
+      font-size:1em;
+    }   
+  }
+  &:hover{
+    background: darken( $Illustrator-color ,22%);
+    .flaticon-graphic:before{
+      color:white; 
+    }      
+  }
+}
+.photoshop-background{
+  background: $Photoshop-color;
+  color:#fff;
+  padding:1em 0em 1em; 
+  h3{
+    .flaticon-image86:before{
+      font-size: 2em;
+    }
+    a{
+      color:#fff;
+      border: none;
+      display: block;
+      margin-top:1em;
+      font-size:1em;
+    }   
+  }
+  &:hover{
+    background: darken( $Photoshop-color ,22%);
+    .flaticon-image86:before{
+      color:white; 
+    }      
+  }
+}
+
+.entry-title{
+  // a{@extend .linkanimate;}
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 400; 
+}
+  
+img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+}
+ 
+/* Text meant only for screen readers */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar */
+}
+
+/* Clearing floats */
+.clear:before,
+.clear:after,
+.gallery:before,
+.gallery:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after,
+.home-widget-area:before {
+  content: '';
+  display: table;
+}
+
+.clear:after,
+.entry-content:after,
+.gallery:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after,
+.home-widget-area:before {
+  clear: both;
+}
+/* =Elements when no javaScript is present
+----------------------------------------------- */
+#submit,
+.tagcloud,
+.comment-reply-link,
+.widget_rss ul,
+button[type=submit],
+.postform,
+table#wp-calendar {
+  display: none;
+}
+.no-js #submit,
+.no-js .tagcloud,
+.no-js .comment-reply-link,
+.no-js .widget_rss ul,
+button[type=submit],
+.no-js .postform,
+.no-js table#wp-calendar {
+  display: block;
+}
+
+#searchsubmit{height: 50px;}
+.navbar-brand h1,
+.navbar-brand h2{
+  font-weight: 300;font-size:28px;
+}
+article{
+  .entry-content { 
+    img{
+      margin-top: 1em;
+      border:1em solid #F2F2F2;
+      background: #F2F2F2;
+    }
+  }
+}

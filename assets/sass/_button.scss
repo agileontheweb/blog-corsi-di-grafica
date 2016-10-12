@@ -1,0 +1,71 @@
+
+.btn-default {
+  @include btn-cg(null,null,center,uppercase);
+  @include transition (all, 0.3s, linear);
+}
+
+.btn-primary {
+  @include btn-cg($primary-color,white,center,uppercase);  
+  border:1px solid transparent;
+  &:hover,&:focus,&:active, &.active, &.label-primary[href]:hover, &.label-primary[href]:focus{
+    @include btn-cg(lighten($primary-color,10%),white,center,uppercase);
+  }  
+}
+ .linkanimate{
+  &:before{
+     content:'';
+  } 
+  &:hover {
+    
+  }
+}
+#btn-top-menu,
+#btn-search-fly,
+#btn-top-newsletter{
+  visibility: hidden;
+  position: fixed;
+  z-index: 1120;
+  right: 13px;
+}
+
+#btn-top-menu{
+  bottom: 6%;
+}
+
+#btn-search-fly{
+  top:15px;
+}
+
+#btn-top-newsletter{
+ top:70px;
+}
+
+.giveme5{ 
+  position: fixed;
+  top: 60%;
+  right: 0px;
+  width: 120px;
+  visibility: hidden;
+  z-index: 999;
+  .hand{
+    display: block;
+    text-indent: -9999px;
+    width: 108px;
+    height: 91px;
+    background: $hand;
+    background-repeat: no-repeat;
+    float: left; 
+    &:hover{
+      cursor: url("assets/img/hand-user.png"), auto;
+    }
+  }
+  span{
+    font-family: $font-amatic;
+    font-size: 2em;
+    display: inline-block;
+    text-align: center;
+    line-height: 23px;
+    margin-left: -10px;
+    font-weight: 700;
+  }
+}

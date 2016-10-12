@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-aws:before {
+	content: "\e000";
+}
+.flaticon-bricks7:before {
+	content: "\e001";
+}
+.flaticon-college1:before {
+	content: "\e002";
+}
+.flaticon-file242:before {
+	content: "\e003";
+}
+.flaticon-font5:before {
+	content: "\e004";
+}
+.flaticon-graphic:before {
+	content: "\e005";
+}
+.flaticon-image86:before {
+	content: "\e006";
+}
+.flaticon-lightbulb58:before {
+	content: "\e007";
+}
+.flaticon-logotype8:before {
+	content: "\e008";
+}
+.flaticon-nodes1:before {
+	content: "\e009";
+}
+.flaticon-one43:before {
+	content: "\e00a";
+}
+.flaticon-one61:before {
+	content: "\e00b";
+}
+.flaticon-pattern:before {
+	content: "\e00c";
+}
+.flaticon-picture64:before {
+	content: "\e00d";
+}
+.flaticon-play-button4:before {
+	content: "\e00e";
+}
+.flaticon-play43:before {
+	content: "\e00f";
+}
+.flaticon-plug36:before {
+	content: "\e010";
+}
+.flaticon-printing3:before {
+	content: "\e011";
+}
+.flaticon-programming2:before {
+	content: "\e012";
+}
+.flaticon-software9:before {
+	content: "\e013";
+}
+.flaticon-web58:before {
+	content: "\e014";
+}
+.flaticon-windows50:before {
+	content: "\e015";
+}
+.flaticon-wordpress19:before {
+	content: "\e016";
+}

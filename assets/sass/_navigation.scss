@@ -1,0 +1,116 @@
+.navbar{
+  .cont-logo{
+    display: inline-block;
+     .logo{
+      display: block;
+      text-indent: -9999px;
+      width: 38px;
+      height: 42px;
+      background: $logo;
+      background-size: 38px 44px;
+      float: left; 
+    }
+  } 
+  .navbar-brand{
+    position: absolute;
+    left: -9999px;
+  } 
+  .nav .open > a,
+  .nav .open > a:hover,
+  .nav .open > a:focus{
+    border:none;
+  }
+
+  background: $nav-background;
+  border-bottom:3px solid $grey-dark;
+  padding: 1em;
+  
+  strong{
+    color:#6b6b6b;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    letter-spacing: -1;
+    margin-left:5px;
+  }
+  span{
+    position: absolute;
+    margin-top:-7px;
+    margin-left:5px;
+    letter-spacing: 2.4px;
+  }
+  .btn-back{
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    background: $primary-color;
+    margin: 0 auto;
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 25px;
+    display: none;
+    cursor: pointer;
+    i{
+      color: white;
+      display: block;
+      margin-top: 9px;
+      margin-left: 9px;
+      font-size: 1.3em;
+    }
+    &:hover{
+      background: darken($primary-color,10%);
+    }
+  }
+  #menu-top{
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-right: 40px;
+    float: right;
+    .caret{
+      position: absolute;
+      margin-top: 3px;
+      margin-left: 25px;
+    }
+    a{
+      padding: 1em;
+    }
+    .active{
+     .submenu-photoshop{
+       border-bottom: 5px solid $Photoshop-color;
+       color:$Photoshop-color;
+      }  
+      .submenu-illustrator{
+       border-bottom: 5px solid $Illustrator-color;
+       color:$Illustrator-color;
+      }
+      .submenu-indesig5{
+       border-bottom: 5px solid $Indesign-color;
+       color:$Indesign-color;
+      }
+      .submenu-wordpre5s{
+       border-bottom: 5px solid $Wordpress-color;
+       color:$Wordpress-color;
+      }
+      .submenu-unix{
+       border-bottom: 5px solid $Unix-color; 
+       color:$Unix-color; 
+      }   
+     }
+      li{
+        position: static;
+      }
+    .dropdown-menu{
+      background: $primary-color;
+      position: fixed;
+      top: 80px; 
+      bottom:100%; 
+      min-width: 400px;
+      margin: 0;
+       li {
+        margin-top: 10px;
+        background: white;
+      }
+    }
+  } 
+}    

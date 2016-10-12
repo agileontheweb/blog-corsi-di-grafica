@@ -1,0 +1,42 @@
+.home .photoshop-course{display: none;}
+#secondary{ 
+  width: 350px;
+  .top-fixed{
+    aside{
+      background: rgb(255, 255, 255);
+      padding: 1em;
+      margin-top: 10px;
+      &.widget{//newsletter
+        border: 1px solid rgba(67, 181, 160, 0.44);
+      }
+      &.widget2{//courese illustrator
+        border: 1px solid rgba(252, 83, 94, 0.44);
+      }
+    }
+  }
+
+  .photoshop-course{
+    text-align: center;
+    color:#0971B8;
+    h3 {
+      font-size: 1.6em;
+      font-weight: 700;
+    }
+  }
+  .illustrator-facile-course{
+    text-align: center;
+    color:#fc535e;
+    h3 {
+      font-size: 3em;
+    }
+  }
+  .illustrator-base-course{
+    margin-top:-11px;
+    text-align: center;
+     padding: 1.2em;
+    h3 {
+      font-size: 2.6em;
+    }
+    color:#C57109;
+  }
+}
