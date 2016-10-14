@@ -52,7 +52,7 @@ $corsoIllustratorBase= get_post_meta($post->ID,  'illustrator-base', true);
               <h3>Illustrator facile</h3>
               <p>disegnare con il mouse</p>
               <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mouse.png"> -->
-              <a href="http://www.corsidigrafica.info/corso-illustrator-facile/" class="btn btn-default">Scopri di più</a>
+              <a href="/corso-illustrator-facile/" class="btn btn-default">Scopri di più</a>
             </div>
           </aside> 
            <?php } if(has_tag('fotolia')) {?> 
