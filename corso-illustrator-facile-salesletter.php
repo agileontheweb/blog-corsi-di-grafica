@@ -3,6 +3,7 @@
  * Template Name: corso-illustrator-facile-salesletter
 */
 ?>
+
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <?php include("corso-il-facile-salessletter/layout_pages/inc/header.php") ?>
