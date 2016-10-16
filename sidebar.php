@@ -45,7 +45,18 @@ $corsoIllustratorBase= get_post_meta($post->ID,  'illustrator-base', true);
               <a href="http://www.corsidigrafica.info/photoshop-ability/" class="btn btn-default">Scopri di più</a>
             </div>
           </aside> 
-            
+
+          <?php } if (is_page_template('category-indesign.php')) {?>
+          <aside class="widget">
+            <div class="indesign-course">
+              <h3>Crea il tuo portfolio</h3>
+              <h4>InDesign per fotografi digitali</h4>
+              <a href="http://www.corsidigrafica.info/risorse/udemy_indesign_portfolio/" class="btn btn-default" target="blank">Scopri di più</a>
+            </div>
+          </aside> 
+          
+
+
           <?}if(has_tag('illustrator-facile')) {?> 
           <aside class="widget2">
             <div class="illustrator-facile-course">

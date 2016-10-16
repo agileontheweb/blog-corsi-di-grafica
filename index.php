@@ -7,7 +7,7 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
     <div class="banner-top">
       <a href="http://corsidigrafica.info/risorse/photoediting" target="blank"
-          onclick="_gaq.push(['_trackEvent', 'click', 'learn-photo-edit-button'])">
+          onClick="ga('send', 'event', '33 tutorial in inglese', 'click', 'go to learnphotoshopedit', 10);">
         <img src="<?php bloginfo('template_directory')?>/assets/img/learn-photo-edit.jpg">
       </a>
     </div>
