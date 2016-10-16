@@ -5,6 +5,13 @@
 get_header(); ?>
 <div id="primary" class="content-area">	 
 	<main id="main" class="site-main" role="main">
+    <div class="banner-top">
+      <a href="http://corsidigrafica.info/risorse/photoediting" target="blank"
+          onclick="_gaq.push(['_trackEvent', 'click', 'learn-photo-edit-button'])">
+        <img src="<?php bloginfo('template_directory')?>/assets/img/learn-photo-edit.jpg">
+      </a>
+    </div>
+    <br>
 		<? if ( is_home() ) {
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				query_posts($query_string . '&cat=-283,-284&paged='.$paged); 

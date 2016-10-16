@@ -88,34 +88,40 @@ get_header();
   blog. Se ancora non hai visto il video dimostrativo dei vari software in azione, <a href="#" data-toggle="modal" data-target="#modal" ><strong>iscriviti alla newsletter</strong></a>
   <hr>  
   <p>
-    <a href="http://www.corsidigrafica.info/corso-illustrator/"><strong>Illustrator Base</strong></a> è il corso per chi vuole iniziare a sperimentare la grafica
+    <a href="http://www.corsidigrafica.info/corso-illustrator/" target="blank"><strong>Illustrator Base</strong></a> è il corso per chi vuole iniziare a sperimentare la grafica
     vettoriale, al termine delle 22 lezioni avrai la conoscenza degli strumenti base, sufficenti per creare
     biglietti da visita, flyer, loghi, adesivi e il classico materiale cartaceo - "no libri".
     In questo corso non si parla di creatività, ma di come apprendere un flusso di lavoro pratico e veloce e come
     utilizzare gli strumenti base al meglio delle loro possibilità. 
   </p>
-  <a class="btn btn-default" href="http://www.corsidigrafica.info/corso-illustrator/">Lo trovi qui</a>
+  <a class="btn btn-default" href="http://www.corsidigrafica.info/corso-illustrator/" target="blank">Lo trovi qui</a>
   <hr>
   <p>
-    <a href="http://www.corsidigrafica.info/corso-illustrator-facile/"><strong>Illustrator Facile</strong></a> un corso completo di grafica vettoriale
+    <a href="http://www.corsidigrafica.info/corso-illustrator-facile/" target="blank"><strong>Illustrator Facile</strong></a> un corso completo di grafica vettoriale
    con oltre 9 ore di video lezioni in alta risulozione. Al termine del corso avrai la conoscenza per creare biglietti da visita, pieghevoli, creare layour per siti web e molto altro ancora.
   </p>
-  <a class="btn btn-default" href="http://www.corsidigrafica.info/corso-illustrator-facile/">Lo trovi qui</a>
+  <a class="btn btn-default" href="http://www.corsidigrafica.info/corso-illustrator-facile/" target="blank">Lo trovi qui</a>
   <hr>
   <p>
-    <a href="http://www.corsidigrafica.info/photoshop-ability/"><strong>Photoshop per tutti</strong></a> è il corso per chi vuole iniziare a sperimentare la grafica
+    <a href="http://www.corsidigrafica.info/photoshop-ability/" target="blank"><strong>Photoshop per tutti</strong></a> è il corso per chi vuole iniziare a sperimentare la grafica
     raster, al termine delle 20 lezioni avrai la conoscenza degli strumenti base e alcune delle tecniche base / intermedie
     per creare fotoritocchi, fotorestauri, composizioni di immagini, layout web, semplici animazioni e la flessibilità 
     di svolgere queste operazioni rapidamente. 
   </p>
-  <a class="btn btn-default" href="http://www.corsidigrafica.info/photoshop-ability/ ">Lo trovi qui</a>
+  <a class="btn btn-default" href="http://www.corsidigrafica.info/photoshop-ability/ " target="blank">Lo trovi qui</a>
   <hr>
   <p>
     <a href="http://corsidigrafica.info/creare-fotoritocchi-con-photoshop.php"><strong>Learn photo editing</strong></a> è un sito il lingua inglese che offre 33 tutorial di Photoshop
     di grande valore, se sai muoverti all'interno di Photoshop non ti sarà difficile seguire queste esercitazioni per realizzare 
     fotomontaggi e manipolazioni di grande impatto. 
   </p>
-  <a class="btn btn-default" href="http://corsidigrafica.info/creare-fotoritocchi-con-photoshop.php">Lo trovi qui</a>
+  <a class="btn btn-default" href="http://corsidigrafica.info/creare-fotoritocchi-con-photoshop.php" target="blank">Lo trovi qui</a>
+  <hr>
+  <p>
+    <a href="http://www.corsidigrafica.info/risorse/udemy/" ><strong>Udemy</strong></a>  è una vera e propria piattaforma per apprendere tantissimi corsi, tra i quali Photoshop, Illustrator, Indesign, Fotografia e tanto altro.
+  </p>
+  <a class="btn btn-default" href="http://www.corsidigrafica.info/risorse/udemy/" target="blank">Lo trovi qui</a>
+
   <div class="col-xs-12 share-social text-center">
     <?php include("inc/_social.php");?>   
   </div>   

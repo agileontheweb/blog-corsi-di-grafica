@@ -51,19 +51,18 @@ $corsoIllustratorBase= get_post_meta($post->ID,  'illustrator-base', true);
             <div class="illustrator-facile-course">
               <h3>Illustrator facile</h3>
               <p>disegnare con il mouse</p>
-              <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mouse.png"> -->
               <a href="http://www.corsidigrafica.info/corso-illustrator-facile/" class="btn btn-default">Scopri di più</a>
             </div>
           </aside> 
            <?php } if(has_tag('fotolia')) {?> 
            <aside class="widget2">
             <div class="fotolia">
-              <h3>Fotolia</h3>
-              <p>disegnare con il mouse</p>
-              <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mouse.png"> -->
-              <!-- <h4>Realizza biglietti da visita, poster, stampe di grande formato, pieghevoli e materiale cartaceo in generale e scopri come creare la grafica di una pagina web.</h4> -->
-              <a href="http://corsidigrafica.info/risorse/fotolia" class="btn btn-xs btn-default">Scopri di più</a>
+              <a href="http://www.corsidigrafica.info/risorse/fotolia/" target="blank">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/fotolia.jpg
+                ">
+              </a>
             </div>
+            
           </aside>
           <?}?>
 </div>
