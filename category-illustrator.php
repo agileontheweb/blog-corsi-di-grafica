@@ -1,15 +1,18 @@
 <?php
 /*
  * Template Name: category-illustrator
- * 
+ *
  */
-
 get_header();
+
 ?>
 
 <div id="post-inner-conten">
- 
-  <h1><?php the_title(); ?></h1>    
+<br>
+<div class="banner-top">
+  <? bannerTopImage(nul)?>
+</div>
+  <h1><?php the_title(); ?></h1>
   <hr>
   <?
     if ( is_page_template( 'category-illustrator.php' ) ) {

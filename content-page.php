@@ -7,8 +7,6 @@
 ?>
 <?php the_post_thumbnail( 'corsidigrafica-featured', array( 'class' => 'single-featured' )); ?>
 <div class="post-inner-content">
-  <div class="hidden-xs"><?php custom_breadcrumbs(); ?></div>
-  <hr>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   	<header class="entry-header page-header">
   		<h1 class="entry-title"><?php the_title(); ?></h1>
@@ -27,15 +25,6 @@
           get_sidebar( 'home' );
         endif;
       ?>
-    <div class="col-xs-12 share-social text-center">
-        <?php
-      if ( is_page_template( 'register.php' )){
-      }else{
-        include("inc/_social.php"); 
-      }
-      ?>
-
-    </div>  
   	</div><!-- .entry-content -->
   	<?php edit_post_link( esc_html__( 'Edit', 'sparkling' ), '<footer class="entry-footer"><i class="fa fa-pencil-square-o"></i><span class="edit-link">', '</span></footer>' ); ?>
   </article><!-- #post-## -->

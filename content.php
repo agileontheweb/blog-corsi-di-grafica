@@ -9,8 +9,8 @@
 			<div class="crop">
 				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="cont-img col-md-12">
 					<? checkimageexist();?>
-				</a> 
-			</div>		  
+				</a>
+			</div>
 			<?php if ( 'post' == get_post_type() ) : ?>
 				<div class="entry-meta">
 					<ul class="list-unstyled hidden-xs">
@@ -20,7 +20,7 @@
 				</div>
 			<?php endif; ?>
 		</div>
-		
+
 		<div class="post-inner-content ">
 			<header class="entry-header page-header">
 				<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>

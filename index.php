@@ -1,20 +1,19 @@
 <?php
 /**
- * @package 
+ * @package
  */
-get_header(); ?>
-<div id="primary" class="content-area">	 
+get_header();
+?>
+<div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
     <div class="banner-top">
-      <a href="http://corsidigrafica.info/risorse/photoediting" target="blank"
-          onClick="ga('send', 'event', '33 tutorial in inglese', 'click', 'go to learnphotoshopedit', 10);">
-        <img src="<?php bloginfo('template_directory')?>/assets/img/learn-photo-edit.jpg">
-      </a>
+      <? bannerTopImage(null)?>
     </div>
+
     <br>
 		<? if ( is_home() ) {
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-				query_posts($query_string . '&cat=-283,-284&paged='.$paged); 
+				query_posts($query_string . '&cat=-283,-284&paged='.$paged);
 			}
 		?>
 		<? if ( is_home() ) { ?>
@@ -40,6 +39,6 @@ get_header(); ?>
 		<?php endif; ?>
 	</main><!-- #main -->
 </div><!-- #primary -->
- 
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

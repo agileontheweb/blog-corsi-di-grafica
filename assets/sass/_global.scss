@@ -1,13 +1,12 @@
 /*------------- 1. Global Variables ------------*/
 
-$font-base:'Titillium Web', sans-serif; 
-$font-amatic: 'AmaticSCRegular', cursive; 
-$font-amatic-bold: 'AmaticBold', cursive; 
-
-$logo:url(assets/img/logo.svg); 
-$hand:url(assets/img/hand.svg); 
+$font-base:'Titillium Web', sans-serif;
+$font-amatic: 'AmaticSCRegular', cursive;
+$font-amatic-bold: 'AmaticBold', cursive;
+$logo:url(assets/img/logo.svg);
+$hand:url(assets/img/hand.svg);
 $sprite:url(assets/img/sprite.svg);
-$primary-color:#43B5A0; 
+$primary-color:#43B5A0;
 $secondary-color:grey;
 $color-text: #6B6B6B;//Grey
 
@@ -16,9 +15,8 @@ $link-hover:#704729;
 
 $nav-background:#F2F2F2;
 $grey-medium:#E6E6E6;
-$grey-dark:#CCCCCC; 
+$grey-dark:#CCCCCC;
 $texture1:url(assets/img/cross_scratches.png);
-
 $Illustrator-color:#E7B14D;
 $Illustrator-facile-color:#fc535e;
 $Photoshop-color:#0078b9 ;
@@ -33,7 +31,7 @@ $Unix-color:#333 ;
 .illustrator-background{
   background: $Illustrator-color;
   color:#fff;
-  padding:1em 0em 1em; 
+  padding:1em 0em 1em;
   h3{
     .flaticon-graphic:before{
       font-size: 2em;
@@ -45,19 +43,19 @@ $Unix-color:#333 ;
       display: block;
       margin-top:1em;
       font-size:1em;
-    }   
+    }
   }
   &:hover{
     background: darken( $Illustrator-color ,22%);
     .flaticon-graphic:before{
-      color:white; 
-    }      
+      color:white;
+    }
   }
 }
 .photoshop-background{
   background: $Photoshop-color;
   color:#fff;
-  padding:1em 0em 1em; 
+  padding:1em 0em 1em;
   h3{
     .flaticon-image86:before{
       font-size: 2em;
@@ -68,13 +66,13 @@ $Unix-color:#333 ;
       display: block;
       margin-top:1em;
       font-size:1em;
-    }   
+    }
   }
   &:hover{
     background: darken( $Photoshop-color ,22%);
     .flaticon-image86:before{
-      color:white; 
-    }      
+      color:white;
+    }
   }
 }
 
@@ -84,14 +82,14 @@ $Unix-color:#333 ;
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-weight: 400; 
+  font-weight: 400;
 }
-  
+
 img {
   height: auto; /* Make sure images are scaled correctly. */
   max-width: 100%; /* Adhere to container width. */
 }
- 
+
 /* Text meant only for screen readers */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -176,7 +174,7 @@ button[type=submit],
   font-weight: 300;font-size:28px;
 }
 article{
-  .entry-content { 
+  .entry-content {
     img{
       margin-top: 1em;
       border:1em solid #F2F2F2;
