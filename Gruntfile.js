@@ -42,7 +42,7 @@ module.exports = function(grunt) {
               'assets/js/navigation.js',
               'assets/js/fastclick.js',
               'assets/js/social-likes.min.js',
-              'assets/js/cookies',
+              'assets/js/js.cookies',
               'assets/js/main.js'
               ],
         // the location of the resulting JS file
@@ -87,8 +87,8 @@ module.exports = function(grunt) {
   });
 
 // grunt.loadNpmTasks('grunt-contrib-jshint');
-// grunt.loadNpmTasks('grunt-contrib-concat');
-// grunt.loadNpmTasks('grunt-contrib-uglify');
+grunt.loadNpmTasks('grunt-contrib-concat');
+grunt.loadNpmTasks('grunt-contrib-uglify');
 
 grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-contrib-sass');

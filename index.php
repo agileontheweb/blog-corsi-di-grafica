@@ -1,13 +1,19 @@
 <?php
 /**
- * @package 
+ * @package
  */
-get_header(); ?>
-<div id="primary" class="content-area">	 
+get_header();
+?>
+<div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
+    <div class="banner-top">
+      <?# bannerTopImage(null)?>
+    </div>
+
+    <br>
 		<? if ( is_home() ) {
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-				query_posts($query_string . '&cat=-283,-284&paged='.$paged); 
+				query_posts($query_string . '&cat=-283,-284&paged='.$paged);
 			}
 		?>
 		<? if ( is_home() ) { ?>
@@ -33,6 +39,6 @@ get_header(); ?>
 		<?php endif; ?>
 	</main><!-- #main -->
 </div><!-- #primary -->
- 
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

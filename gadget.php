@@ -37,9 +37,8 @@ get_header();
     <div class="post-inner-content ">
       <header class="entry-header page-header">
         <h2 class="entry-title">
-          <a href="<?php the_permalink(); ?>" rel="bookmark">
           <?php if ( strlen(get_the_title()) > 26 ) { echo substr(get_the_title(), 0, 60)."..."; } else { the_title(); } ?>
-        </a></h2>
+        </h2>
         <?php the_content(); ?>
          <a class=" read-more" target="blank" href="<?php echo  $link_amazon; ?>">Acquista su Amazon </a> 
       </header><!-- .entry-header -->

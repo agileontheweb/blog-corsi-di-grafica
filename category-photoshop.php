@@ -6,8 +6,11 @@ get_header();
 ?>
 
 <div id="post-inner-content">
- 
-  <h1><?php the_title(); ?></h1>    
+<br>
+<div class="banner-top">
+  <?# bannerTopImage(null)?>
+</div>
+  <h1><?php the_title(); ?></h1>
   <hr>
    <?
     if ( is_page_template( 'category-photoshop.php' ) ) {

@@ -2,6 +2,7 @@
 /**
 * @package corsidigrafica
 */
+
 ?>
 <!doctype html>
 <!--[if !IE]>
@@ -28,7 +29,8 @@
   <?php wp_head(); ?>
 </head> 
 <body <?php body_class(); ?>>
-  <? include_once('inc/_modal.php');
+  <?  include_once('inc/_modal.php');
+      include_once('inc/_modal_survay.php');
   if ( is_page_template('il-facile-membership.php') ) {
   } else {
     include ('inc/_top-optin-newsletter.php'); 

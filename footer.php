@@ -25,8 +25,17 @@
             </ul>
           </div>
   			</div><!-- .site-info -->
-			 <div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+			 
 	  </footer><!-- #colophon -->
+    <!-- <div class="udemy-footer-ads">
+      <div class="container text-center">
+        <img src="https://www.udemy.com/staticx/udemy/images/v5/logo-green.svg">
+        <strong>Iscriviti a qualunque* corso a $19 o meno!</strong>
+        <a href="http://www.corsidigrafica.info/risorse/udemy"
+            onClick="ga('send', 'event', 'Udemy footer', 'click', 'go to Udemy', 10);"
+            target="blank" class="btn btn-xs btn-primary">Trova corso</a>
+      </div>
+    </div> -->
   <?php wp_footer(); ?> 
  </body>
 </html>

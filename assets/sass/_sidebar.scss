@@ -1,4 +1,3 @@
-.home .photoshop-course{display: none;}
 #secondary{ 
   width: 350px;
   .top-fixed{
@@ -13,7 +12,18 @@
         border: 1px solid rgba(252, 83, 94, 0.44);
       }
     }
+    .widget.indesign{
+      border: 1px solid #cf0477;
+      .indesign-course{
+        text-align: center;
+        h3,h4{
+          color:#cf0477;
+        }
+      }
+    }
   }
+  
+  
 
   .photoshop-course{
     text-align: center;

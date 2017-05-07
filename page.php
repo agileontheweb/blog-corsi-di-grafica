@@ -10,8 +10,13 @@
  * @package sparkling
  */
 
-get_header(); ?>
+get_header();
+?>
 <div id="primary" class="content-area">
+<br>
+<div class="banner-top">
+  <? bannerTopImage(null)?>
+</div>
 	<main id="main" class="site-main" role="main">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'content', 'page' ); ?>

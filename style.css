@@ -3,7 +3,7 @@
 Theme Name: Corsi di grafica
 Theme URI: http://blog.corsidigrafica.info
 Author: Alessandro Cuoghi
-Version: 0.1.7
+Version: 0.1.8
 */
 /*------------- 1. Global Variables ------------*/
 /*------------- 2. Class Color ------------*/
@@ -6571,7 +6571,12 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.css.map */
+html {
+  position: relative;
+  min-height: 100%; }
+
 body {
+  margin-bottom: 100px;
   color: #6B6B6B;
   word-wrap: break-word;
   font-family: "Titillium Web", sans-serif;
@@ -6665,6 +6670,26 @@ body {
 .list-group-item-success {
   background-color: #FC535E; }
 
+.udemy-footer-ads {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 60px;
+  background: #2d2d4c;
+  padding-top: 1em;
+  color: white; }
+  .udemy-footer-ads img {
+    display: inline-block;
+    height: 40px;
+    fill: white;
+    margin-right: 20px; }
+  .udemy-footer-ads strong {
+    margin-right: 20px; }
+  .udemy-footer-ads .btn-primary {
+    background: #ffd800;
+    color: #2d2d4c; }
+
 .main-content-inner {
   visibility: hidden; }
 
@@ -6727,6 +6752,9 @@ body {
       bottom: -120px; }
     .single .row .crop img {
       transform: translateY(-125px); }
+.single #newsletter-single-bottom {
+  background: #fff;
+  padding: 3em 0; }
 
 #page .blog-item-wrap .row {
   overflow: hidden;
@@ -6866,16 +6894,20 @@ body {
         border-color: ligthen(#0078b9, 20%);
         background: #005786; }
 
-.footer {
+footer.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   background: #f7f7f7; }
-  .footer ul {
+  footer.footer ul {
     margin-top: 10px; }
-    .footer ul li {
+    footer.footer ul li {
       display: inline-block;
       float: left;
       margin-right: 1em;
       font-size: 1.2em; }
-  .footer .logo {
+  footer.footer .logo {
     background: url(assets/img/sprite.svg) -6px 16px;
     width: 241px;
     height: 120px;
@@ -8755,9 +8787,6 @@ body {
 .fa-medium:before {
   content: ""; }
 
-.home .photoshop-course {
-  display: none; }
-
 #secondary {
   width: 350px; }
   #secondary .top-fixed aside {
@@ -8768,6 +8797,12 @@ body {
       border: 1px solid rgba(67, 181, 160, 0.44); }
     #secondary .top-fixed aside.widget2 {
       border: 1px solid rgba(252, 83, 94, 0.44); }
+  #secondary .top-fixed .widget.indesign {
+    border: 1px solid #cf0477; }
+    #secondary .top-fixed .widget.indesign .indesign-course {
+      text-align: center; }
+      #secondary .top-fixed .widget.indesign .indesign-course h3, #secondary .top-fixed .widget.indesign .indesign-course h4 {
+        color: #cf0477; }
   #secondary .photoshop-course {
     text-align: center;
     color: #0971B8; }
