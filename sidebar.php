@@ -32,7 +32,7 @@ $corsoIllustratorBase= get_post_meta($post->ID,  'illustrator-base', true);
   if (in_array('home',$classes)){
     ?>
     <aside>
-       <? bannerSideBar()?>
+       <?# bannerSideBar()?>
     </aside>
   <?}if ( is_page_template('category-illustrator.php') || ( $corsoIllustratorBase == "illustrator-base" ) ) {?>
     <aside class="widget2">

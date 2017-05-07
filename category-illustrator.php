@@ -10,7 +10,7 @@ get_header();
 <div id="post-inner-conten">
 <br>
 <div class="banner-top">
-  <? bannerTopImage(nul)?>
+  <?# bannerTopImage(nul)?>
 </div>
   <h1><?php the_title(); ?></h1>
   <hr>
